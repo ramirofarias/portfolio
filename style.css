@@ -1,0 +1,103 @@
+html,
+body {
+  width: 100%;
+  background-color: #fafafa;
+  font-size: 24px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+  color: black;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Bitter", serif;
+  color: #383838;
+}
+
+p {
+  font-weight: 300;
+  color: #383838;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #383838;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #fafafa;
+  border: none;
+}
+
+button:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.icon {
+  vertical-align: middle;
+  color: #383838;
+  font-size: 1.5rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-content: center;
+  justify-items: center;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.left {
+  align-self: center;
+  padding: 2rem;
+  margin-left: 2rem;
+}
+
+.right {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.project {
+  height: 300px;
+  width: 250px;
+  background-color: #383838;
+}
+
+.texto {
+  color: #fafafa;
+  font-size: 0.8rem;
+}
+
+.project--img {
+  width: 250px;
+  height: 100px;
+}
+
+.project--img img {
+  width: 100%;
+  height: auto;
+}
