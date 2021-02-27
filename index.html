@@ -14,25 +14,38 @@
   </head>
   <body>
     <div class="main">
+      <!--Left Side-->
+
       <div class="left">
+        <button id="dark">
+          <span><i class="fas fa-lightbulb"></i></span>
+        </button>
+
         <div class="name"><h1>Ramiro Farias</h1></div>
         <div class="about">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos temporibus delectus repellendus accusamus maiores,
-            reiciendis placeat facere blanditiis animi, voluptas obcaecati
-            possimus, mollitia error. Quibusdam, est optio. Iste, officiis rem!
+            Desarrollador argentino con conocimientos de HTML5, CSS3, JavaScript
+            etc
           </p>
         </div>
         <button class="contacto">Contacto</button>
         <div class="links">
-          <span class="icon"><i class="fab fa-github-square"></i></span>
-          <span class="icon"><i class="fab fa-linkedin"></i></span>
+          <a href="https://github.com/ramirofarias/" target="_blank"
+            ><span class="icon"><i class="fab fa-github-square"></i></span
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ramiro-farias-0a42821ba/"
+            target="_blank"
+            ><span class="icon"><i class="fab fa-linkedin"></i></span
+          ></a>
         </div>
       </div>
+
+      <!--Right Side-->
+
       <div class="right">
         <div class="projects--wrapper">
-          <h2>Projects</h2>
+          <div class="heading--projects"><h2>Proyectos</h2></div>
           <div class="projects">
             <div class="project">
               <div class="project--title">
@@ -45,7 +58,9 @@
                 <span class="project--desc tech">JAVASCRIPT — MATERIALIZE</span>
 
                 <p class="project--desc text">
-                  Herramienta que permite calcular el porcentaje de panadero.
+                  Herramienta ideal para la panadería: permite escalar recetas,
+                  calcular el porcentaje de panadero y el peso total de la
+                  preparación.
                 </p>
               </div>
               <div class="project--links"></div>
@@ -69,13 +84,13 @@
         </div>
 
         <div class="certifications--wrapper">
-          <h2>Certifications</h2>
+          <div class="heading"><h2>Certificaciones</h2></div>
           <div class="certifications">
             <div class="certification">
               <span class="icon">
                 <i class="fab fa-free-code-camp"></i>
               </span>
-              <span
+              <span class="certification--text"
                 >FreeCodeCamp — JavaScript Algorithms and Data Structures</span
               >
             </div>
@@ -87,5 +102,6 @@
       src="https://kit.fontawesome.com/d175677a13.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
