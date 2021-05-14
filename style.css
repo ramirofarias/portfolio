@@ -2,6 +2,11 @@
   filter: invert(95%);
 }
 
+.invert {
+  filter: invert(95%);
+}
+
+
 html,
 body {
   width: 100%;
@@ -83,6 +88,16 @@ button:hover {
 
   padding: 2rem;
   margin-left: 2rem;
+}
+.pic{
+  width: 300px;
+  margin-top: 2rem;
+}
+
+.pic--image{
+  width:100%;
+  height: auto;
+  border-radius: 5%;
 }
 
 .right {
@@ -181,6 +196,10 @@ button:hover {
     height: 100%;
     padding: 1rem;
     flex-direction: column;
+  }
+
+  .pic{
+    width: 200px;
   }
 
   .about {
